@@ -1,10 +1,10 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Adamina } from "next/font/google";
 import "../globals.css";
 
 import { ClerkProvider } from "@clerk/nextjs";
 
-const inter = Inter({ subsets: ["latin"] });
+const inter = Adamina( {weight: "400",  subsets: ["latin"], });
 
 export const metadata: Metadata = {
   title: "Borcelle - Admin Auth",
